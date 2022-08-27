@@ -15,6 +15,7 @@ class SearchBar extends Component {
 
     searchImage = () => {
         console.log("başarılı");
+        this.props.onSearchImage(this.state.search);
     }
 
     render() {
