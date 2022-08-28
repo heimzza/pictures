@@ -4,7 +4,5 @@ using https://unsplash.com/ <br>
 using axios (npm install axios --save) <br>
 React Ref <br>
 
-[Image of the project](/ImageSearch_Example.png) <br>
-
-![alt text](https://github.com/heimzza/pictures/blob/master/ImageSearch_Example.png?raw=true) <br>
+![Image of the projectt](https://github.com/heimzza/pictures/blob/master/ImageSearch_Example.png?raw=true) <br>
 
