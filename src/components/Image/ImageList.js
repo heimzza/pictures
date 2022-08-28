@@ -1,10 +1,11 @@
 import React from 'react';
+import Image from './Image';
 import './imageList.css'
 
 function ImageList({images}) {
     const fetchedImages = images.map(image => {
         return(
-            <img key={image.id} src={image.urls.regular} alt="" />
+            <Image key={image.id} image={image}/>
         );
     });
     return (
