@@ -10,7 +10,7 @@ class App extends Component {
   }
 
   onSearchImage = async(search) => {
-    console.log("App: " + search);
+    // console.log("App: " + search);
     const result = await axios.get('https://api.unsplash.com/search/photos',{
       params:{
         query : search
@@ -29,7 +29,7 @@ class App extends Component {
     return (
       <div className='app-container'>
         <SearchBar onSearchImage={this.onSearchImage}></SearchBar>
-        <ImageList/>
+        <ImageList images={this.state.images}/>
       </div>
     );
   }

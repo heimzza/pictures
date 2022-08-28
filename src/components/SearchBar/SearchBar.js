@@ -7,14 +7,14 @@ class SearchBar extends Component {
         search:""
     };
     inputOnchanged(event){
-        console.log(event.target.value);
+        // console.log(event.target.value);
         this.setState({
             search:event.target.value
         });
     }
 
     searchImage = () => {
-        console.log("başarılı");
+        // console.log("başarılı");
         this.props.onSearchImage(this.state.search);
     }
 
